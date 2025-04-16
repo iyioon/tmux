@@ -27,6 +27,7 @@ git clone https://github.com/iyioon/tmux.git "${XDG_CONFIG_HOME:-$HOME/.config}"
 - New Prefix key: `Ctrl + a`
 - Split panes number starts from 1
 - Panes open from current directory
+- Auto rename window when one is closed
 - [Better mouse mode](https://www.google.com/search?q=better+mouse+mode+tmux&sourceid=chrome&ie=UTF-8)
 - Status bar with:
   - Battery status
