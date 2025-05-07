@@ -32,6 +32,11 @@ git clone https://github.com/iyioon/tmux.git "${XDG_CONFIG_HOME:-$HOME/.config}"
 - Status bar with:
   - Battery status
   - CPU usage
+- Vi-style copy mode
+  - Enter copy mode with `Ctrl + a` + `[`
+  - `v` to start selection
+  - (move with `h`/`j`/`k`/`l`)
+  - `y` to copy & exit
 
 ## Addition
 
