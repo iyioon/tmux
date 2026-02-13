@@ -29,6 +29,12 @@ sudo dnf install tmux
 git clone https://github.com/iyioon/tmux.git "${XDG_CONFIG_HOME:-$HOME/.config}"/tmux
 ```
 
+For remote servers, use the `remote` branch (status bar at bottom):
+
+```bash
+git clone -b remote https://github.com/iyioon/tmux.git "${XDG_CONFIG_HOME:-$HOME/.config}"/tmux
+```
+
 ### 2. Install TPM (Tmux Plugin Manager)
 
 This configuration uses [TPM](https://github.com/tmux-plugins/tpm) to manage plugins. You must install it:
