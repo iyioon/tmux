@@ -13,13 +13,44 @@
 Make sure you have tmux installed:
 
 ```bash
+# macOS
 brew install tmux
+
+# Debian/Ubuntu
+sudo apt install tmux
+
+# Fedora
+sudo dnf install tmux
 ```
 
-For Linux and Mac:
+### 1. Clone this repository
 
 ```bash
 git clone https://github.com/iyioon/tmux.git "${XDG_CONFIG_HOME:-$HOME/.config}"/tmux
+```
+
+### 2. Install TPM (Tmux Plugin Manager)
+
+This configuration uses [TPM](https://github.com/tmux-plugins/tpm) to manage plugins. You must install it:
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+### 3. Install plugins
+
+Start tmux and press `Ctrl+a` followed by `Shift+I` (capital I) to install the plugins.
+
+Alternatively, you can install plugins from the command line:
+
+```bash
+~/.tmux/plugins/tpm/bin/install_plugins
+```
+
+### 4. Reload tmux
+
+```bash
+tmux source ~/.config/tmux/tmux.conf
 ```
 
 ## Features
