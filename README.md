@@ -25,14 +25,16 @@ sudo dnf install tmux
 
 ### 1. Clone this repository
 
-```bash
-git clone https://github.com/iyioon/tmux.git "${XDG_CONFIG_HOME:-$HOME/.config}"/tmux
-```
-
-For remote servers, use the `remote` branch (status bar at bottom):
+For remote servers (this branch, status bar at bottom):
 
 ```bash
 git clone -b remote https://github.com/iyioon/tmux.git "${XDG_CONFIG_HOME:-$HOME/.config}"/tmux
+```
+
+For local machines, use the `master` branch (status bar at top):
+
+```bash
+git clone https://github.com/iyioon/tmux.git "${XDG_CONFIG_HOME:-$HOME/.config}"/tmux
 ```
 
 ### 2. Install TPM (Tmux Plugin Manager)
