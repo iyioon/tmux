@@ -42,7 +42,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### 3. Install plugins
 
-Start tmux and press `Ctrl+b` followed by `Shift+I` (capital I) to install the plugins.
+Start tmux and press `Ctrl+Space` followed by `Shift+I` (capital I) to install the plugins.
 
 Alternatively, you can install plugins from the command line:
 
@@ -58,7 +58,7 @@ tmux source ~/.config/tmux/tmux.conf
 
 ## Features
 
-- Prefix key: `Ctrl + b` (default)
+- Prefix key: `Ctrl + Space`
 - Status bar at **bottom**
 - Window/pane index starts from 1
 - Panes open from current directory
@@ -66,7 +66,7 @@ tmux source ~/.config/tmux/tmux.conf
 - [Better mouse mode](https://github.com/NHDaly/tmux-better-mouse-mode)
 - Status bar with hostname, CPU and RAM usage
 - Vi-style copy mode:
-  - Enter copy mode: `Ctrl+b` + `[`
+  - Enter copy mode: `Ctrl+Space` + `[`
   - Start selection: `v`
   - Move: `h`/`j`/`k`/`l`
   - Copy & exit: `y`
@@ -75,7 +75,7 @@ tmux source ~/.config/tmux/tmux.conf
 
 | Setting | Master (local) | Remote (this branch) |
 |---------|----------------|----------------------|
-| Prefix key | `Ctrl+a` | `Ctrl+b` (default) |
+| Prefix key | `Ctrl+a` | `Ctrl+Space` |
 | Status bar | Top | Bottom |
 
 ## Adding plugins
