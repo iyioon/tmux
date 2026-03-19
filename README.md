@@ -64,6 +64,10 @@ tmux source ~/.config/tmux/tmux.conf
 - Auto renumber windows when one is closed
 - [Better mouse mode](https://github.com/NHDaly/tmux-better-mouse-mode)
 - Status bar with hostname, CPU and RAM usage
+- Tmux resurrect support for saving/restoring sessions
+  - `prefix + Ctrl-s` - save
+  - `prefix + Ctrl-r` - restore
+- Tmux continuum support for automatic saving/restoring sessions
 - Vi-style copy mode:
   - Enter copy mode: `Ctrl+a` + `[`
   - Start selection: `v`
